@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const serverUrl = "http://localhost:5001/api/v1"
+// const serverUrl = "http://localhost:5001/api/v1"
+const serverUrl = "https://port-backend-ha0p.onrender.com/api/v1"
 
 export const getUser = () => async (dispatch) => {
   try {

@@ -84,7 +84,7 @@
   }
   
   .projectCard > div:last-child > p {
-    letter-spacing: 5px;
+    letter-spacing: 1px;
     word-spacing: 5px;
     text-align: right;
   }

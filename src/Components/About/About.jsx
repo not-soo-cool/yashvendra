@@ -1,6 +1,8 @@
 import { Typography } from "@mui/material";
 import React from "react";
 import "./About.css";
+import pic from "../../images/img471.png"
+// import pic from "../../images/IMG_281.PNG"
 
 const About = ({ about }) => {
   return (
@@ -12,7 +14,8 @@ const About = ({ about }) => {
       <div className="aboutContainer2">
         <div>
           {/* <img src={about.avatar.url} alt="Abhi" className="aboutAvatar" /> */}
-          <img src="https://w.forfun.com/fetch/ee/ee356e62c87dcd8544a0ec5bbd86b15a.jpeg?w=400" alt="Abhi" className="aboutAvatar" />
+          {/* <img src="https://w.forfun.com/fetch/ee/ee356e62c87dcd8544a0ec5bbd86b15a.jpeg?w=400" alt="Abhi" className="aboutAvatar" /> */}
+          <img src={pic} alt="Yash" className="aboutAvatar" />
 
           <Typography
             variant="h4"
@@ -36,7 +39,7 @@ const About = ({ about }) => {
             style={{
               wordSpacing: "5px",
               lineHeight: "50px",
-              letterSpacing: "5px",
+              letterSpacing: "1px",
               textAlign: "right",
             }}
           >

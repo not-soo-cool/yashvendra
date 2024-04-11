@@ -141,7 +141,7 @@ const Project = () => {
                 id={item._id}
                 key={item._id}
                 url={item.url}
-                // projectImage={item.image.url}
+                projectImage={item.image.url}
                 projectTitle={item.title}
                 description={item.description}
                 technologies={item.techStack}

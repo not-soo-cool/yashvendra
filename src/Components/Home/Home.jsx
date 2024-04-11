@@ -145,10 +145,14 @@ const Home = ({timelines, youtubes, skills}) => {
         </Typography>
 
         <div className="homeCanvasBox">
-          <Typography variant="h2">DESIGNER</Typography>
-          <Typography variant="h2">DEVELOPER</Typography>
-          <Typography variant="h2">TEACHER</Typography>
-          <Typography variant="h2">CONTENT CREATOR</Typography>
+          {/* <Typography variant="h2">DESIGNER</Typography> */}
+          <Typography variant="h2">FULL STACK DEVELOPER</Typography>
+          <Typography variant="h2">FRONTEND DEVELOPER</Typography>
+          <Typography variant="h2">iOS DEVELOPER</Typography>
+          <Typography variant="h2">BACKEND DEVELOPER</Typography>
+          <Typography variant="h2">ANDROID DEVELOPER</Typography>
+          {/* <Typography variant="h2">TEACHER</Typography>
+          <Typography variant="h2">CONTENT CREATOR</Typography> */}
         </div>
 
         <Link to="/projects">VIEW WORK</Link>
@@ -214,31 +218,21 @@ const Home = ({timelines, youtubes, skills}) => {
         </div>
       </div>
 
-      <div className="homeYoutube">
+      {/* <div className="homeYoutube">
         <Typography variant="h3"> YOUTUBE VIDEOS</Typography>
 
         <div className="homeYoutubeWrapper">
           {youtubes && youtubes.map((item) => (
             <YoutubeCard
-              // image={item.image.url}
-              // image="https://w.forfun.com/fetch/b4/b4d430320229744245679e19e50b6f03.jpeg?w=300"
-              // title="Sample Video"
+              image="https://w.forfun.com/fetch/b4/b4d430320229744245679e19e50b6f03.jpeg?w=300"
               title={item.title}
               url={item.url}
               id={item._id}
               key={item._id}
             />
             ))}
-            {/* <YoutubeCard
-              image="https://w.forfun.com/fetch/b4/b4d430320229744245679e19e50b6f03.jpeg?w=300"
-              title="Sample Video"
-            />
-            <YoutubeCard
-              image="https://w.forfun.com/fetch/b4/b4d430320229744245679e19e50b6f03.jpeg?w=300"
-              title="Sample Video"
-            /> */}
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

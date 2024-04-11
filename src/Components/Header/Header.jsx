@@ -1,6 +1,6 @@
 import React from 'react'
 import { ReactNavbar } from 'overlay-navbar'
-import logo from '../../images/john-doe-image.png'
+import logo from '../../images/img471.png'
 // import PersonIcon from '@mui/icons-material/Person';
 import { FaUserAlt } from "react-icons/fa"
 

@@ -46,7 +46,7 @@
   
   .homeCanvasBox > h2 {
     font: 900 4rem "Ubuntu Mono", "Roboto";
-    letter-spacing: 22px;
+    letter-spacing: 12px;
     line-height: 130px;
     color: white;
   }
@@ -122,8 +122,8 @@
   }
   
   .homeCubeSkills {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     animation: cubeRotation 15s linear infinite alternate;
     transform-style: preserve-3d;
   }
@@ -145,22 +145,22 @@
   }
   
   .homeCubeSkillsFace1 {
-    transform: translate3d(0, 0, 100px);
+    transform: translate3d(0, 0, 135px);
   }
   .homeCubeSkillsFace2 {
-    transform: rotateY(180deg) translate3d(0, 0, 150px);
+    transform: rotateY(180deg) translate3d(0, 0, 135px);
   }
   .homeCubeSkillsFace3 {
-    transform: rotateY(-90deg) translate3d(0, 0, 150px);
+    transform: rotateY(-90deg) translate3d(0, 0, 135px);
   }
   .homeCubeSkillsFace4 {
-    transform: rotateY(90deg) translate3d(0, 0, 150px);
+    transform: rotateY(90deg) translate3d(0, 0, 135px);
   }
   .homeCubeSkillsFace5 {
-    transform: rotateX(90deg) translate3d(0, 0, 150px);
+    transform: rotateX(90deg) translate3d(0, 0, 135px);
   }
   .homeCubeSkillsFace6 {
-    transform: rotateX(-90deg) translate3d(0, 0, 150px);
+    transform: rotateX(-90deg) translate3d(0, 0, 135px);
   }
   
   .cubeShadow {

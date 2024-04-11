@@ -62,18 +62,16 @@ const Projects = ({ projects }) => {
       </Typography>
 
       <div className="projectsWrapper">
-        {projects.map((item) => (
+        {projects && projects.map((item) => (
         // {projects.map((project, index) => (
           <ProjectCard
             // url="https://github.com/meabhisingh/mernPortfolio/blob/master/frontend/src/components/Projects/Projects.css"
             // projectImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaRYy3D3SQQnWo57UP04y5SlQGDJRq92Sb7ZvUJAE8&s"
-            // projectTitle="Sample Project"
-            // description="This is a sample project"
-            // technologies="MERN"
+            url={item.url}
             id={item._id}
             key={item._id}
-            url={item.url}
-            // projectImage={item.image.url}
+            // url={item.url}
+            projectImage={item.image.url}
             projectTitle={item.title}
             description={item.description}
             technologies={item.techStack}
